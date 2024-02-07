@@ -45,3 +45,10 @@ const biggerThan = salaries.filter((salary) => salary >= 10000)
 
 console.log(biggerThan)
 console.log(salaries)
+
+
+const biggerThan9000 = salaries
+.filter((s) => s < 9000)
+.map((s) => Number((s * 1.1).toFixed))
+
+console.log(biggerThan9000)
